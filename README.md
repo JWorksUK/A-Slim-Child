@@ -25,6 +25,15 @@ npm install -g grunt-cli bower
 npm install && bower install
 ```
 
+## Twig Cache
+
+create and set permissions for cache folder
+
+```
+mkdir site/app/views/cache
+chmod 777 site/app/views/cache
+```
+
 ## TODO
 
  - Write a better README
