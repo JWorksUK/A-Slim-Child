@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Page Name</title>
+
+        <meta name="description" content="description here!" />
+        <meta name="keywords" content="keywords" />
+
+        <meta property="og:title" content="{{ site_name }}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="[ url ]" />
+        <meta property="og:image" content="[ image url ]" />
+        <meta property="og:site_name" content="[ site name ]" />
+        <meta property="og:description" content="[ description ]"/>
+
+        <link rel="stylesheet" href="assets/css/style.min.css">
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <link rel="shortcut icon" href="/favicon.ico" />
+    </head>
+    <body>
+        <div id="mainWrap" class="wrap">
+            {%block content%}{%endblock%}
+        </div>
+
+        <script src="assets/js/site.min.js"></script>
+    </body>
+</html>

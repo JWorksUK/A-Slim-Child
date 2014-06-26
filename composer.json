@@ -1,0 +1,10 @@
+{
+    "config": {
+        "vendor-dir": "site/app/vendor"
+    },
+    "require": {
+        "slim/slim": "2.*",
+        "slim/views": "0.*",
+        "twig/twig": "1.*"
+    }
+}

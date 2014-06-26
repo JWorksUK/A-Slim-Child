@@ -1,0 +1,15 @@
+# use glob syntax.
+syntax: glob
+
+.DS_Store
+node_modules
+.sass-cache
+
+bower_components
+
+npm-debug.log
+
+site/app/vendor
+site/app/views/cache/*
+composer.lock
+composer.phar

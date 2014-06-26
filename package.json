@@ -1,0 +1,20 @@
+{
+    "name" : "ASlimChild",
+    "version" : "1.0.0",
+    "author" : {
+        "name" : "Jesse James",
+        "email" : "me@jworksuk.com",
+        "url" : "http://www.jworksuk.com/"
+    },
+    "devDependencies" : {
+        "grunt" :                       "*",
+        "grunt-contrib-cssmin":         "*",
+        "grunt-contrib-sass":           "*",
+        "grunt-contrib-uglify":         "*",
+        "grunt-contrib-watch":          "*",
+        "grunt-cssc":                   "*",
+        "grunt-contrib-concat":         "*",
+        "grunt-contrib-jshint":         "*",
+        "matchdep":                     "*"
+    }
+}
